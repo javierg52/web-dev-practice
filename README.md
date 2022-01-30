@@ -1,6 +1,7 @@
 # Web Dev Practice Repository
 
-Repository that will be used to store small practice projects. These projects are not meant for anything beyond education and pracitce. 
+Repository that will be used to store small practice projects. These projects are not meant for anything beyond education and pracitce. <br>
+***Note**: Latest completed project can be viewed live via GitHub Pages [here](https://javierg52.github.io/web-dev-practice/).*
 
 <br><br>
 
