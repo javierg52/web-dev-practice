@@ -1,0 +1,66 @@
+@import url(./fonts.css);
+
+/* Header */
+.header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: black;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    max-width: 5rem;
+}
+
+.nav-logo a img {
+    width: 100%;
+    transition: ease-out 0.25s ;
+}
+
+.nav-logo a img:hover {
+    transform:scale(1.1);
+}
+
+.nav-items {
+    margin: 0;
+    display:flex;
+    list-style-type: none
+}
+
+.nav-item {
+    margin: auto 0;
+    padding: 0 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-item a {
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: ease-out 0.1s ;
+}
+
+.nav-item a:hover {
+    color: #5a84e7;
+}
+
+/* Footer */
+.site-footer {
+    background-color: black;
+    text-align: right;
+    padding: 1px 1.5rem;
+}
+
+.site-footer p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}

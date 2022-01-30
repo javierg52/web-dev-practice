@@ -15,31 +15,56 @@
         <header class="header">
             <nav class="main-nav">
                 <div class="nav-logo">
-                    <a href="../../info-site/index.html">
+                    <a href="../index.html">
                         <img src="../img/tag.png" alt="HTML tag" title="Home" width="128">
                     </a>
                 </div>
                 <ul class="nav-items">
                     <li class="nav-item">
-                        <a href="../../info-site/index.html">Home</a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../info-site/pages/about.html">About</a>
+                        <a href="./articles.html">Articles</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../info-site/pages/articles.html">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../../info-site/pages/contact.html">Contact</a>
+                        <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main class="content">
-            <div class="block">
-                <p>A Contact Form will go here some day.</p>
+        <div class="home-bg bg-img" style="height: 96%;">
+            <h1 class="contact-title">Want to reach out? Contact us below.</h1>
+            <div class="contact-section" style="padding-top: 20%">
+                <form action="PUT">
+                    <h2 class="section-heading">Contact Form</h2>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="contact-name" size="50"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="contact-email" size="50"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="contact-message" cols="50" rows="10"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <div class="contact-info">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <address>
+                        Feel free to reach out by calling us at:<br> (123) 456-7890
+                        or send us an <a href="mailto:noreply@null.net">email here</a>.<br>
+                        Dev Disciple Inc. <br>
+                        123 SW Totally Real St<br>
+                        Nowhere, OK 73038<br>
+                        USA<br>
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6523.79044273283!2d-98.44665757066306!3d35.159233792699965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1643471103512!5m2!1sen!2sus" 
+                        width="500" 
+                        height="375" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+                      </address>
+                </div>
             </div>
-        </main>
+        </div>
         <footer class="site-footer">
             <p> © Dev Discple | 2022 </p>
         </footer>
